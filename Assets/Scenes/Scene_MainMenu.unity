@@ -384,7 +384,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.791}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 236.49744, y: 0.005004883}
+  m_AnchoredPosition: {x: 236.49744, y: 0.005126953}
   m_SizeDelta: {x: -473.0049, y: 0.0048828}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &788232188
@@ -678,6 +678,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highScoreText: {fileID: 788232188}
+  energyText: {fileID: 642353581}
+  maxEnergy: 3
+  energyRechargeDuration: 1
 --- !u!1 &2058412013
 GameObject:
   m_ObjectHideFlags: 0
